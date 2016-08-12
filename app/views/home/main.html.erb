@@ -1,0 +1,192 @@
+
+<div class="body-back">
+	<div class="masthead pdng-stn1">
+		<!--사이드바-->
+		<div id="menu" class="sidenav" role="navigation">
+			<div class="wrap-content">
+				<div class="nav-menu text-center">
+					<img class="nav-profile img-circle border-effect" src="/assets/ilguk.png" alt=" ">
+					<img class="side-go nav-camera" onclick="DoNav('/home/myprofile')" src="/assets/camera.gif" alt=" ">
+						<p class="nav-nickname">삼둥파파</p>
+						<button class="nav-proedit-btn" onclick="DoNav('/home/myprofile')">프로필 편집</button>
+					
+					<div class="side-go" onclick="DoNav('/home/myfood')">
+						<img class="side-nemo" src="/assets/my_food.png" alt=" ">
+							<p class="side-nemo-label">마이푸드</p>
+					</div>	
+					<div class="side-go" onclick="DoNav('/home/checklist')">
+						<img class="side-nemo" src="/assets/checklist.gif" alt=" ">
+							<p class="side-nemo-label">체크리스트</p>
+					</div>
+					<div class="side-go" onclick="DoNav('/home/qna')">
+						<img class="side-nemo" src="/assets/qna.png" alt=" ">
+							<p class="side-nemo-label">Q&A</p>
+					</div>
+					<div class="side-go" onclick="DoNav('/home/setting')">
+						<img class="side-nemo" src="/assets/setting.png" alt=" ">
+							<p class="side-nemo-label">설정</p>
+					</div>
+
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="phone-box wrap push">
+		    
+		    <!-- nav -->
+			<div class="navtop">
+				<div class="nav-left">
+					<a href="#menu" class="menu-link"><img src="/assets/left-top.gif" class="nav-img"/></a>
+				</div>
+				<div class="nav-name">
+					<a href="/home/main" style="text-decoration: none"><h5 class="pro-link">FOODDUCK</h5></a>
+				</div>
+				<div class="nav-right">
+				    <a href="/home/index"><img src="/assets/go-home.gif" class="nav-img"/></a>
+				
+				</div>
+				<div class="clearfix"></div>
+			</div> 
+			
+			<!--리얼 바디-->
+			<div class="main-grid">
+				<div class="main-shade">
+						<div class="food_search">
+								<form>
+									<input type="search" placeholder="검색어를 입력해주세요!" >
+									  <a href="/home/product_detail"><input type="submit" value=" "></a>
+  									<div class="search_click" onclick="DoNav('/home/product_detail')"></div>
+								</form>
+						</div>
+						<div class="search_rec">
+								<p>
+									<a href="/home/product_detail" class="search_rec_k"> #아기과자 </a>
+									<a href="/home/product_detail" class="search_rec_k">#과자</a>
+									<a href="/home/product_detail" class="search_rec_k">#GMO</a>
+									<a href="/home/product_detail" class="search_rec_k">#감자칩</a>
+								</p>
+						</div>
+				    
+				        <div class="hot_food">
+				            <img src="/assets/hot_food_label.gif" class="hot_food_label"/> 
+                            <article id="cc-slider">
+                              <input checked="checked" name="cc-slider" id="slide1" type="radio">
+                              <input name="cc-slider" id="slide2" type="radio">
+                              <input name="cc-slider" id="slide3" type="radio">
+                              <input name="cc-slider" id="slide4" type="radio">
+                              <input name="cc-slider" id="slide5" type="radio">
+                              <div id="cc-slides">
+                                <div id="overflow">
+                                  <div class="inner">
+                                    <article>
+                                      <div class="cctooltip">
+                                        <h3>Amazing / Photoshop / Photography</h3>
+                                        <h4>By <a href="#">codeconvey</a></h4>
+                                      </div>
+                                      <img src="/assets/hot_food/seu_ggang.png" onclick="DoNav('/home/result')" style="cursor:pointer;"> 
+                                    </article>
+                                    <article>
+                                      <div class="cctooltip">
+                                        <h3>Abstract Retro Photography</h3>
+                                        <h4>By <a href="#">codeconvey</a></h4>
+                                      </div>
+                                      <img src="/assets/hot_food/o_tang.png" onclick="DoNav('/home/result')" style="cursor:pointer;"> </article>
+                                    <article>
+                                      <div class="cctooltip">
+                                        <h3>Street Photography</h3>
+                                        <h4>By <a href="#">codeconvey</a></h4>
+                                      </div>
+                                      <img src="/assets/hot_food/no_buttercoo.png" onclick="DoNav('/home/result')" style="cursor:pointer;"> </article>
+                                    <article>
+                                      <div class="cctooltip">
+                                        <h3>Portrait / Woman / Photography</h3>
+                                        <h4>By <a href="#">codeconvey</a></h4>
+                                      </div>
+                                      <img src="/assets/hot_food/corn_mayo.png" onclick="DoNav('/home/result')" style="cursor:pointer;"> </article>
+                                    <article>
+                                      <div class="cctooltip">
+                                        <h3>Fashion / Sport / Photography</h3>
+                                        <h4>By <a href="#">codeconvey</a></h4>
+                                      </div>
+                                      <img src="/assets/hot_food/cucu.png" onclick="DoNav('/home/result')" style="cursor:pointer;"> </article>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="controls">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                                <label for="slide4"></label>
+                                <label for="slide5"></label>
+                              </div>
+                            </article>	
+                        </div>
+				
+        			    <div class="food_article_label">
+        		         	<p>최신 식품 뉴스
+        		         	<button class="food_article_label_btn">더 보기</button>
+        		         	</p>
+        		      </div>
+        		         
+        			    <div class="food_article">
+        			        <table border="0" width="400" class="food_article_table">
+                            <tr onclick="DoNav('http://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=102&oid=020&aid=0002990803')">
+                            <td class="food_article_line indent">해태제과 ‘홈런볼 저지방우유’ 회수 조치...</td>
+                            </tr>
+                            <tr onclick="DoNav('http://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=102&oid=003&aid=0007359622')">
+                            <td class="food_article_line indent">참기름서 발암물질 '벤조피렌' 초과 검출...</td>
+                            </tr>
+                            <tr onclick="DoNav('http://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=102&oid=310&aid=0000048082')">
+                            <td class="food_article_line indent">삼진식품 어묵 회수…유통기한 지난 원료...</td>
+                            </tr>
+                            <tr onclick="DoNav('http://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=101&oid=421&aid=0001861760')">
+                            <td class="food_article_line indent">유통기한 속인 초코파이·유산균제품</td>
+                            </tr>
+                            <tr onclick="DoNav('http://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=103&oid=468&aid=0000171216')">
+                            <td class="indent">삼복더위와 함께 찾아오는 식중독 예방법</td>
+                            </tr>
+                      </table>
+        		        </div>
+        		        
+        		         <div class="food_dic_label">
+        		         	<p onclick="DoNav('/home/dic_main')">성분백과
+        		         	<button class="food_dic_label_btn" onclick="DoNav('/home/dic_main')">더 보기</button>
+        		         	</p>
+        		         </div>
+        		         <div class="food_dic">
+        			     		<table border="0" width="400" class="food_dic_table">
+                            <tr onclick="DoNav('/home/dic_id')">
+                            <td class="food_dic_line indent">구연산 (Citric acid)</td>
+                            </tr>
+                            <tr onclick="DoNav('/home/dic_id')">
+                            <td class="food_dic_line indent">사이토키닌 (Cytokinin)</td>
+                            </tr>
+                            <tr onclick="DoNav('/home/dic_id')">
+                            <td class="food_dic_line indent">팜유 (Palm oil)</td>
+                            </tr>
+                            <tr onclick="DoNav('/home/dic_id')">
+                            <td class="food_dic_line indent">마리네이드 (Marinade)</td>
+                            </tr>
+                            <tr onclick="DoNav('/home/dic_id')">
+                            <td class="indent">니코틴산아미드 (Nicotinic acid amide)</td>
+                            </tr>
+                      </table>
+        		        </div>
+        		        
+        		        <div class="foot">
+        		        	
+        		        </div>
+				</div>	    
+			    
+			</div>
+			
+		
+				
+  </div>
+</div>
+</div>
+
+<script src="/assets/jquery.nicescroll.js"></script>
+<script src="/assets/scripts.js"></script>
